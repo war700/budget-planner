@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Budget Tracker</title>
+    <meta name="description" content="A simple budget tracker tool to manage your finances easily.">
+    <meta name="keywords" content="budget tracker, finance management, budget calculator, personal finance">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Simple Budget Tracker</h1>
+    </header>
+
+    <main>
+        <div class="container">
+            <label for="income">Income:</label>
+            <input type="number" id="income" placeholder="Enter your income">
+            <label for="expenses">Expenses:</label>
+            <input type="number" id="expenses" placeholder="Enter your expenses">
+            <button onclick="calculateBudget()">Calculate</button>
+            <div id="result"></div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Simple Budget Tracker. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
